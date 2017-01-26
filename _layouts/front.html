@@ -4,16 +4,24 @@
 {% include head.html %}
 
 <body id="page-top">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   {% include nav.html %}
   {% include header.html %}
   {% include call-to-action.html %}
   {% include services.html %}
   {% include aside.html %}
-  {% include portfolio.html %}
   {% include social.html %}
   {% include contact.html %}
   {% include footer.html %}
   {% include scripts.html %}
+
 </body>
 
 </html>
