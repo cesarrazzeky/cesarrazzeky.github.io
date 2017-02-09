@@ -1,13 +1,14 @@
-# Site settings
-title: Razekky Music
-email: Bookings.dj@yahoo.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Configuração do site
+title: Razekky Music # Titulo do site
+email: Bookings.dj@yahoo.com # email
+description: > # 
+baseurl: "" # 
+url: "" # 
 
+# redes sociais
 twitter_username: djrazzeky
 facebook_username: djrazzeky
 soundcloud_username: djrazzeky
 
-# Build settings
+# 
 markdown: kramdown
