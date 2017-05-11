@@ -71,7 +71,7 @@ aside {
 
 .navbar-default {
     background-color:black;
-    border-color: rgba($theme-dark, .5);
+    border-bottom: 0.1em solid rgba(255, 153, 0, 0.86) !important;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {

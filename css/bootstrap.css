@@ -5,6 +5,12 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+
+section {
+    border-bottom: 0.1em solid rgba(255, 153, 0, 0.86);
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
